@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guessing game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav>
+        <h1 class="title">Welcome to the <span id="main-title">Guessing Game</span></h1>
+    </nav>
+    <div id="main">
+        <div id="input-cont">
+            <label for="guess">Your guess: </label>
+            <input type="text" name="guess" id="guess" placeholder="Your guess?" disabled>
+        </div>
+        <div id="result-cont">
+            <p id="result">Shall we start?</p>
+        </div>
+        <div id="btn-cont">
+            <button id="check">Start?</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
